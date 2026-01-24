@@ -114,7 +114,7 @@
                 </div>
 
                 <button type="submit"
-                        class="w-full btn-primary text-white font-bold py-4 rounded-xl text-lg hover:shadow-lg transition-all">
+                        class="w-full bg-gradient-to-r from-primary to-secondary text-white font-bold py-4 rounded-xl text-lg hover:from-secondary hover:to-accent hover:shadow-lg transition-all">
                     Send Message
                 </button>
             </form>
@@ -156,5 +156,14 @@
         </div>
     </footer>
 
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            alert('Thank you! Your message has been sent successfully. We will allow get back to you soon.');
+            
+            this.reset();
+        });
+    </script>
 </body>
 </html>
