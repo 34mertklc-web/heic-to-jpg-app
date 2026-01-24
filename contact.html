@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HEIC to JPG Converter</title>
+    <meta name="description" content="Contact HEIC to JPG Converter. Get in touch with us for questions, feedback, or support.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0F4C81',
+                        secondary: '#1E6BB8',
+                        accent: '#3B9AE1',
+                        dark: '#0A2540',
+                        light: '#E8F4FD'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2424761903136639"
+     crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-light min-h-screen font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                </div>
+                <h1 class="text-xl md:text-2xl font-bold text-dark">HEIC<span class="text-accent">2</span>JPG</h1>
+            </a>
+            <a href="index.html" class="btn-primary text-white font-semibold px-6 py-2 rounded-xl hover:shadow-lg transition-all">
+                Back to Home
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+            <h1 class="text-4xl font-extrabold text-dark mb-6">Contact Us</h1>
+            <p class="text-slate-600 mb-8">We'd love to hear from you! Whether you have a question, feedback, or need support, please reach out to us.</p>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-light rounded-xl p-6">
+                    <div class="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Email Us</h3>
+                    <p class="text-slate-600">Send us an email and we'll get back to you as soon as possible.</p>
+                </div>
+
+                <div class="bg-light rounded-xl p-6">
+                    <div class="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Quick Response</h3>
+                    <p class="text-slate-600">We typically respond within 24-48 hours during business days.</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form id="contactForm" class="space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-semibold text-dark mb-2">Name</label>
+                    <input type="text" id="name" name="name" required
+                           class="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-primary focus:outline-none transition-colors"
+                           placeholder="Your name">
+                </div>
+
+                <div>
+                    <label for="email" class="block text-sm font-semibold text-dark mb-2">Email</label>
+                    <input type="email" id="email" name="email" required
+                           class="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-primary focus:outline-none transition-colors"
+                           placeholder="your.email@example.com">
+                </div>
+
+                <div>
+                    <label for="subject" class="block text-sm font-semibold text-dark mb-2">Subject</label>
+                    <select id="subject" name="subject" required
+                            class="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-primary focus:outline-none transition-colors">
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="bug">Report a Bug</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message" class="block text-sm font-semibold text-dark mb-2">Message</label>
+                    <textarea id="message" name="message" rows="6" required
+                              class="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-primary focus:outline-none transition-colors resize-none"
+                              placeholder="Your message..."></textarea>
+                </div>
+
+                <button type="submit"
+                        class="w-full btn-primary text-white font-bold py-4 rounded-xl text-lg hover:shadow-lg transition-all">
+                    Send Message
+                </button>
+            </form>
+
+            <div id="formMessage" class="hidden mt-6 p-4 rounded-xl"></div>
+
+            <!-- Additional Information -->
+            <div class="mt-12 pt-8 border-t border-slate-200">
+                <h2 class="text-2xl font-bold text-dark mb-4">Frequently Asked Questions</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="font-semibold text-dark mb-2">How secure is the conversion process?</h3>
+                        <p class="text-slate-600">All conversions happen entirely in your browser. Your files never leave your device, ensuring complete privacy and security.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-dark mb-2">Is there a file size limit?</h3>
+                        <p class="text-slate-600">Since files are processed locally, there's no server-imposed limit. However, very large files may take longer to process depending on your device's capabilities.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-dark mb-2">Do you store my files?</h3>
+                        <p class="text-slate-600">No, we never store, save, or have access to your files. Everything is processed locally in your browser.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-8 mt-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6 mb-4">
+                <a href="privacy.html" class="text-slate-300 hover:text-white transition-colors">Privacy Policy</a>
+                <span class="text-slate-500 hidden md:inline">|</span>
+                <a href="terms.html" class="text-slate-300 hover:text-white transition-colors">Terms of Use</a>
+                <span class="text-slate-500 hidden md:inline">|</span>
+                <a href="contact.html" class="text-slate-300 hover:text-white transition-colors">Contact</a>
+            </div>
+            <p class="text-slate-400 text-center">© 2026 HEIC2JPG - Free Online HEIC to JPG Converter</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formMessage = document.getElementById('formMessage');
+            const formData = new FormData(this);
+            
+            // In a real implementation, you would send this data to a server
+            // For now, we'll just show a success message
+            formMessage.className = 'mt-6 p-4 rounded-xl bg-green-50 border-2 border-green-200';
+            formMessage.innerHTML = '<p class="text-green-800 font-medium">Thank you for your message! We have received your inquiry and will get back to you as soon as possible.</p>';
+            formMessage.classList.remove('hidden');
+            
+            // Reset form
+            this.reset();
+            
+            // Scroll to message
+            formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+    </script>
+</body>
+</html>
